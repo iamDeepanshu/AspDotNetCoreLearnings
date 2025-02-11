@@ -1,0 +1,2 @@
+wwwroot\FileA.txt
+wwwroot\sample.png

@@ -1,0 +1,43 @@
+﻿WEB ROOT and USESTATIC FILES
+							
+		wwwroot folder :
+
+								// if there is only "wwwroot" folder and files are present in this folder then just use,
+
+								 app.UseStaticFiles();
+
+
+
+		Custom Name for wwwroot :
+
+								// if we change the name of wwwroot name, then we have configure the default settings in  WebApplication.CreateBuilder(args);  to recognize the folder
+
+			var builder = WebApplication.CreateBuilder(new WebApplicationOptions()
+				{
+					 // this works only for one custom folder
+						WebRootPath = "myroot"   //set the path by giving folder name
+				})
+
+								// but also we have to create a dummy "wwwroot" folder to run the custom-root folder, if it is not there then we will have an exception
+
+
+		Multiple wwwroot :
+
+								// for Multiple wwwroot folder
+								// we have to use another app.UseStaticFile, bcz one is alreday used by "WebRootPath"
+
+				app.UseStaticFiles(new StaticFileOptions(){
+    				FileProvider = new PhysicalFileProvider(
+        				Path.Combine(builder.Environment.ContentRootPath,"mywebroot"))
+        				});
+
+
+						    //  using concatination
+		 // new PhysicalFileProvider(builder.Environment.ContentRootPath+"\\mywebroot")
+
+					//StaticFileOptions(){} --> it is a property
+				   //  ContentRootPath --> represents the current working directory path
+
+
+		// if a static files contains in more than one folder then that "UseStaticFile()" middleware executed which will occur at first
+

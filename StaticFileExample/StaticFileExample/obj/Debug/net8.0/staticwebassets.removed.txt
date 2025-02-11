@@ -1,0 +1,2 @@
+C:\Users\DeepanshuSaini\source\repos\StaticFileExample\StaticFileExample\wwwroot\FileA.txt
+C:\Users\DeepanshuSaini\source\repos\StaticFileExample\StaticFileExample\wwwroot\sample.png

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "17nYF/VAmuUuhGZMI6Iv1V2wyDABCm4YzGi2xN/etLE=",
+  "Source": "StaticFileExample",
+  "BasePath": "_content/StaticFileExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StaticFileExample\\wwwroot",
+      "Source": "StaticFileExample",
+      "ContentRoot": "C:\\Users\\DeepanshuSaini\\source\\repos\\StaticFileExample\\StaticFileExample\\wwwroot\\",
+      "BasePath": "_content/StaticFileExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
