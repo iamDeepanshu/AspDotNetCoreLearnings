@@ -1,0 +1,74 @@
+
+ 								HTTP REQUEST
+-------------------------------------------------------------------------------
+	Query String :
+		>>	 is the syntax where you can send the parameter values from request
+			(browser) to server.
+		>>	 Anywhere in the URL , if ? is the there then left part is the URL path and right part is the Query String.
+
+		>>   in case of GET request the query string will be attached as a part of the url with question mark like this. 
+			 ( /dashboard?id=1 )
+
+		>>   but in case of POST request the query string will not be present in this url, but instead the same gets present in 
+			 the request body.
+
+		STEPS :-
+		i) At first check whether the method is get or post.,  using  (context.Request.Method == "Get" or "Post")
+		ii) Then check for query is available in the QueryDictionary or not?, using  Query.ContainsKey("").
+		iii) If available, read the value and then store it to the variable.
+		iv)	 Then supply the variable in the response
+----------------------------------------------------------------------------------
+	& , is the seperator b/w key value pairs
+
+	$ ,   used so that we can combine the literal text along with property values like this {context.Requrst.Path }.
+
+	? , used to represent Nullable refrence type i.e it can accept null values, like --> string? endpoint
+
+
+
+		*** ROUTING and QUERY STRING  are the two different ways to get the value from
+	 browser to server ***
+
+	HTTP REQUEST HEADER:-
+			Accept : browsers tells to the server, i will excepting the html/text response(or any type).
+
+			Accept-Language : browsers tells to the server, give the response in the particular language(ex. en-US).
+
+			Content-Type : this is information about the request body,the format of req. body, only for POST request.
+
+			Content-Length : numbers of bytes that indicates the size of req. body.
+
+			Date : date of req.
+
+			Host : indicates server name, doamin address of the host.
+
+			User-Agent: string that indicates the current browser and current OS details(helps the server to indicates the 
+			            browser type).
+			Cookie :
+----------------------------------------------------------------------------------------
+      GET :- in case of GET req., req body is empty
+
+	  POST :- in case of POST req., req body contaions some info.( is not empty).
+			 Request body is may be in XML, JSON or Query String format
+
+
+-------------------------------------------------------------------------------------------
+	 StreamReader :-
+				>>  It is class in ASP.NET core, which allow you to read the info. from the request body.
+
+				>>  We create an object of stream reader to read the value of request body, as Body is of Stream type and the  
+					request body conatains info. of different types like String , etc.	
+
+				>>  We pass the, (context.Request.Body)	   // this "request.Body" represent the Request Body
+
+					using System.IO;     //importing namespace
+					StreamReader reader = new StreamReader(context.Request.Body).
+					string body = await reader.ReadToEndAsync();   //to fully load the request body
+
+				Dictionary<String, StringValues> queryreader = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(body);
+
+				if (queryDict.ContainsKey("firstName"))
+			    {
+			        string firstname = queryDict["firstName"][0];
+			        await context.Response.WriteAsync(firstname);
+			    }

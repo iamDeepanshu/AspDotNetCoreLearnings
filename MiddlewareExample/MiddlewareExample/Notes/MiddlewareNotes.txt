@@ -1,0 +1,84 @@
+MIDDLEWARE:-
+				>>  in the application pipeline.
+
+				>>	Middleware can be request delegate(anonymous method or Lambda
+					 Expression) OR a class.
+
+				>>  Middleware exectues in the order in which they are codded.
+
+				>>  var app = build.Build();
+					app.Run( () => {} );
+
+					*	"app" -> is the application builder object, used to enable or 
+						create the middleware
+
+					*	One of the method is Run( () => {} ), to create middleware. 
+
+					*	In this method we will define a Lambda Expression " () => {} ".
+
+					*	This lambda expression will execute only upon receiving the
+						 request.
+					*	But will not execute when application gets start. or 
+						application startup.
+
+					*	Lamb. exp. should receive an argument i.e. context. optionally we can specify its datatype HttpContext 
+						type.
+									HttpContext context) =>{ }
+						"context" :- meaning here, it is an object that contains the property like req, response, session,etc.
+
+					*	If there is atleast one "await" keyword in the lamb. exp, the entire exp. should be declare as "async".
+								    app.Run(async (HttpContext context) =>{} );
+
+					**	await keyword is only used within the asynchronous methods.
+
+
+		NOTE:-  app.Run(), method does not forward the request to the subsequent middleware (short circuit/ terminating)
+
+
+  Middleware Chain :-
+   				 app.Use((async(HttpContext context, RequestDelegate next)=>{});
+   					*   method is used to execute the subsequent middlewares
+   					*	await next(context); is use to call next middleware
+
+
+   Middleware class :- 
+   				*	also custom middleware class
+   				*	it is created when a middleware contains bunch of code statements (or a large data )
+
+   	Steps to create:
+
+   			i) Create a Visual C# class. and update the namespace by adding folder 
+   				name, MyCustomMiddleware.cs
+
+   		    ii) Then implements the, " : IMiddleware " interface to the class.
+
+   		   ii1) Now add the logic data to the class.
+
+   		   iv)   Now we have to register this class as middleware, for this move to 
+   		   		Program.cs file and add at top "just after the builder object" , by using below statement
+   		   		
+   		   			 builder.Services.AddTransient<MyCustomMiddleware>();
+   		     //here MyCustomMiddleware is the class name
+
+   		    v) import the custom middleware class,:- 
+   		    		using Project_name.Custom_foldername;
+
+   		    vi) calling the custom middleware class,using by-> app.UseMiddleware<>();
+   		    		app.UseMiddleware<MyCustomMiddleware>();
+
+ Custom Middleware Extension:-
+		// first create a static class in the custom middleware file.
+		//	this method(i.e "UseMyCustomMiddleware") must be static method, then it only be designated as an extension method
+        // injecting the method to the IApplicationBuilder type using "this"
+        // and  "app" is the variable by which we can access this extension method
+        // variable name can be different
+        // "UseMyCustomMiddleware" method is injected to the "app" object.
+
+Custom Convention Middleware Class:-
+			// right click on middleware folder >> add item >> add middleware class
+			// Prefered and new way to create a middleware
+			// visual studio automatic adds Extension method by default
+
+Use When:-
+			// It is used when we want to execute a branch of middleware when a 
+				specific condition is true.
