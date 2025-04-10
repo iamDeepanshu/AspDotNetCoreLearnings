@@ -33,7 +33,7 @@ namespace ControllersExample.Controllers
         [Route("person")]
         public JsonResult Person() {
 
-        // creating object of Person class of models folder andd passing the value to properties
+        // creating object of Person class of models folder and passing the value to properties
         Person person = new Person() { Id = Guid.NewGuid(), FirstName="Avi", LastName = "Saini", Age = 25 };
 
             // return new JsonResult(person);

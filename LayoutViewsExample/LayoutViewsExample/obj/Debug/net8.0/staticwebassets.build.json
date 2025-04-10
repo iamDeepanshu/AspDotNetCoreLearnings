@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "D40eo/yce2h/52vCcUsK1twl0pS+BKuzZ/BUiL8CoSs=",
+  "Source": "LayoutViewsExample",
+  "BasePath": "_content/LayoutViewsExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LayoutViewsExample\\wwwroot",
+      "Source": "LayoutViewsExample",
+      "ContentRoot": "C:\\AspDotNetLearnings\\LayoutViewsExample\\LayoutViewsExample\\wwwroot\\",
+      "BasePath": "_content/LayoutViewsExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\AspDotNetLearnings\\LayoutViewsExample\\LayoutViewsExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "LayoutViewsExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AspDotNetLearnings\\LayoutViewsExample\\LayoutViewsExample\\wwwroot\\",
+      "BasePath": "_content/LayoutViewsExample",
+      "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o9wov4ycne",
+      "Integrity": "pBePWL7v3yCE9DYcq+saMhWtnHZA56dfkllfEnOg9TQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "StyleSheet.css",
+      "AssetFile": "C:\\AspDotNetLearnings\\LayoutViewsExample\\LayoutViewsExample\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3069"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pBePWL7v3yCE9DYcq+saMhWtnHZA56dfkllfEnOg9TQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 02:54:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pBePWL7v3yCE9DYcq+saMhWtnHZA56dfkllfEnOg9TQ="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.o9wov4ycne.css",
+      "AssetFile": "C:\\AspDotNetLearnings\\LayoutViewsExample\\LayoutViewsExample\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3069"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pBePWL7v3yCE9DYcq+saMhWtnHZA56dfkllfEnOg9TQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 02:54:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o9wov4ycne"
+        },
+        {
+          "Name": "label",
+          "Value": "StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pBePWL7v3yCE9DYcq+saMhWtnHZA56dfkllfEnOg9TQ="
+        }
+      ]
+    }
+  ]
+}

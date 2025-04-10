@@ -1,0 +1,29 @@
+﻿Model Binding
+
+ 				  Model Binding is a feature of asp.net core that reads values from http requests and pass them as arguments to the action method.
+ 				  
+
+ 				From Route and Form Query
+
+
+ 			Model Class:-
+
+	 					>>	is a class that reprensent structure of data (as properties) that you would like to receive from the request and/or send to the response.
+
+	 					>> it is used to reduce the complexity of code in action method. by adding all the arguments as properties in the model class.
+
+	 					>> have to create the class in Model folder and  add the properties of the object 
+
+	 					>> adding the model class in the home controller
+
+	 					>> adding the class the type and object in the action method parameter
+
+	 					>> use the oject to get the properties value  
+
+
+  				form-urlencodded and form data :-
+
+  								>>  1st is for less fields
+  								>>  2nd is for more fields and media also
+
+  								>> both are added using the request body

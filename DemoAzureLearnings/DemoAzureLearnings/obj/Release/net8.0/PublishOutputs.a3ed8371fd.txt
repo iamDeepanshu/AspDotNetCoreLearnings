@@ -1,0 +1,7 @@
+C:\AspDotNetLearnings\DemoAzureLearnings\DemoAzureLearnings\obj\Release\net8.0\PubTmp\Out\DemoAzureLearnings.exe
+C:\AspDotNetLearnings\DemoAzureLearnings\DemoAzureLearnings\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\AspDotNetLearnings\DemoAzureLearnings\DemoAzureLearnings\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\AspDotNetLearnings\DemoAzureLearnings\DemoAzureLearnings\obj\Release\net8.0\PubTmp\Out\DemoAzureLearnings.dll
+C:\AspDotNetLearnings\DemoAzureLearnings\DemoAzureLearnings\obj\Release\net8.0\PubTmp\Out\DemoAzureLearnings.deps.json
+C:\AspDotNetLearnings\DemoAzureLearnings\DemoAzureLearnings\obj\Release\net8.0\PubTmp\Out\DemoAzureLearnings.runtimeconfig.json
+C:\AspDotNetLearnings\DemoAzureLearnings\DemoAzureLearnings\obj\Release\net8.0\PubTmp\Out\DemoAzureLearnings.pdb

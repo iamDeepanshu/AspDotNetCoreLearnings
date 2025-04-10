@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AspDotNetLearnings\\ControllersExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96E3C423-A020-4787-AC71-C2D8C1780A81}|ControllersExample\\ControllersExample.csproj|c:\\aspdotnetlearnings\\controllersexample\\controllersexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E3C423-A020-4787-AC71-C2D8C1780A81}|ControllersExample\\ControllersExample.csproj|solutionrelative:controllersexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E3C423-A020-4787-AC71-C2D8C1780A81}|ControllersExample\\ControllersExample.csproj|c:\\aspdotnetlearnings\\controllersexample\\controllersexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E3C423-A020-4787-AC71-C2D8C1780A81}|ControllersExample\\ControllersExample.csproj|solutionrelative:controllersexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E3C423-A020-4787-AC71-C2D8C1780A81}|ControllersExample\\ControllersExample.csproj|c:\\aspdotnetlearnings\\controllersexample\\controllersexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E3C423-A020-4787-AC71-C2D8C1780A81}|ControllersExample\\ControllersExample.csproj|solutionrelative:controllersexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ControllersExample\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ControllersExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T04:44:10.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ControllersExample\\Models\\Person.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\Models\\Person.cs",
+              "RelativeToolTip": "ControllersExample\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T04:43:51.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\Program.cs",
+              "RelativeDocumentMoniker": "ControllersExample\\Program.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\Program.cs",
+              "RelativeToolTip": "ControllersExample\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T04:43:46.4Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

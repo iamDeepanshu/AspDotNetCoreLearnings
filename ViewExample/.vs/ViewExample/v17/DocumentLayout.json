@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AspDotNetLearnings\\ViewExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\controller\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\controller\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\models\\personandproductwrappermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\models\\personandproductwrappermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\views\\home\\personwithproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\views\\home\\personwithproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\views\\home\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\views\\home\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\viewsexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\viewsexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\wwwroot\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\wwwroot\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\views\\shared\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\views\\shared\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|c:\\aspdotnetlearnings\\viewexample\\viewexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08797F39-745F-461A-AA0F-5E420F1D4B7C}|ViewExample\\ViewsExample.csproj|solutionrelative:viewexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\wwwroot\\StyleSheet.css",
+              "RelativeDocumentMoniker": "ViewExample\\wwwroot\\StyleSheet.css",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\wwwroot\\StyleSheet.css",
+              "RelativeToolTip": "ViewExample\\wwwroot\\StyleSheet.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-04T04:57:54.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ViewExample\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ViewExample\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:32:36.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Shared\\All.cshtml",
+              "RelativeDocumentMoniker": "ViewExample\\Views\\Shared\\All.cshtml",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Shared\\All.cshtml",
+              "RelativeToolTip": "ViewExample\\Views\\Shared\\All.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:30:47.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewsExample.csproj",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\ViewsExample.csproj",
+              "RelativeDocumentMoniker": "ViewExample\\ViewsExample.csproj",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\ViewsExample.csproj",
+              "RelativeToolTip": "ViewExample\\ViewsExample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-04T04:28:56.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Home\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ViewExample\\Views\\Home\\_ViewImports.cshtml",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Home\\_ViewImports.cshtml",
+              "RelativeToolTip": "ViewExample\\Views\\Home\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:29:07.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonWithProduct.cshtml",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Home\\PersonWithProduct.cshtml",
+              "RelativeDocumentMoniker": "ViewExample\\Views\\Home\\PersonWithProduct.cshtml",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Home\\PersonWithProduct.cshtml",
+              "RelativeToolTip": "ViewExample\\Views\\Home\\PersonWithProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:24:02.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Controller\\ProductController.cs",
+              "RelativeDocumentMoniker": "ViewExample\\Controller\\ProductController.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Controller\\ProductController.cs",
+              "RelativeToolTip": "ViewExample\\Controller\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T04:18:02.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ViewExample\\Models\\Product.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Models\\Product.cs",
+              "RelativeToolTip": "ViewExample\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T04:16:24.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonAndProductWrapperModel.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Models\\PersonAndProductWrapperModel.cs",
+              "RelativeDocumentMoniker": "ViewExample\\Models\\PersonAndProductWrapperModel.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Models\\PersonAndProductWrapperModel.cs",
+              "RelativeToolTip": "ViewExample\\Models\\PersonAndProductWrapperModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T04:15:35.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ViewExample\\Models\\Person.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Models\\Person.cs",
+              "RelativeToolTip": "ViewExample\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T04:01:48.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "ViewExample\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "ViewExample\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:25:11.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ViewExample\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ViewExample\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T03:46:22.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Controller\\HomeController.cs",
+              "RelativeDocumentMoniker": "ViewExample\\Controller\\HomeController.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Controller\\HomeController.cs",
+              "RelativeToolTip": "ViewExample\\Controller\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T03:35:20.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Program.cs",
+              "RelativeDocumentMoniker": "ViewExample\\Program.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\ViewExample\\ViewExample\\Program.cs",
+              "RelativeToolTip": "ViewExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T03:33:32.712Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

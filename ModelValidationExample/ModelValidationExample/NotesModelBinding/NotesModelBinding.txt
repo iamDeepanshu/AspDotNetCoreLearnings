@@ -1,0 +1,286 @@
+﻿Model Binding
+
+ 				  Model Binding is a feature of asp.net core that reads values from http requests and pass them as arguments to the action method.
+ 				  
+
+ 				From Route and Form Query
+
+
+ 			Model Class:-
+
+	 					>>	is a class that reprensent structure of data (as properties) that you would like to receive from the request and/or send to the response.
+
+	 					>> it is used to reduce the complexity of code in action method. by adding all the arguments as properties in the model class.
+
+	 					>> have to create the class in Model folder and  add the properties of the object 
+
+	 					>> adding the model class in the home controller
+
+	 					>> adding the class the type and object in the action method parameter
+
+	 					>> use the oject to get the properties value  
+
+
+  				form-urlencodded and form data :-
+
+  								>>  1st is for less fields
+  								>>  2nd is for more fields and media also
+
+  								>> both are added using the request body
+
+
+  			Model validations :-
+
+  				>>	we need this bcz it is lengthy process to add validation to each parameter in the Action method.
+
+  				>> so by adding validation in model class to the properties
+  				it can be easy and clean code, then in action method by passing the object of the model class
+
+
+  							>> adding validation to the model class(on properties),
+  							 instead of action method for the ease and clean code
+
+  								class ClassName
+								{
+								  [Attribute] //applies validation rule on this property
+								  public type PropertyName { get; set; }
+								}
+
+
+			Model State :-
+
+					>> it is the object of controller base class which checks for the model validations using the below properties.
+
+						IsValid ->
+							Specifies whether there is at least one validation error or not (true or false).
+
+						Values ->
+							Contains each model property value with corresponding "Errors" property that contains list of validation errors of that model property.
+
+						ErrorCount ->
+							Returns number of errors	
+
+				Example :-
+					  if (!ModelState.IsValid)
+						 {
+						     string errors = string.Join("\n",ModelState.Values.SelectMany(value => value.Errors).Select(err => err.ErrorMessage));
+
+						     return BadRequest(errors);
+						 }
+
+			<<	Types of validations:-  >>
+
+					EXAMPLE :-
+
+					// attribute to add validation, not to be null
+					 [Required (ErrorMessage = "{0} can't be empty or null")] 
+
+					 [Display(Name = "Person Name")]
+
+					 // {0} ->> is the personname automatically concatenated and "Display" attribute chnages the name of the property(PersonName)
+
+					 public string? PersonName { get; set; }
+
+
+
+		1				[Required(ErrorMessage = "value")]
+				Specifies that the property value is required (can't be blank or empty).
+
+		2		[StringLength(int maximumLength, MinimumLength = value, ErrorMessage = "value")]
+
+				Specifies minimum and maximum length (number of characters) allowed in the string.
+
+		3		[Range(int minimum, int maximum, ErrorMessage = "value")]
+				Specifies minimum and maximum numerical value allowed.
+
+		4		[RegularExpression(string pattern, ErrorMessage = "value")]
+				Specifies the valid pattern (regular expression).
+
+		5		[EmailAddress(ErrorMessage = "value")]
+				Specifies that the value should be a valid email address.
+
+		6		[Phone(ErrorMessage = "value")]
+				Specifies that the value should be a valid phone number).
+				Eg: (999)-999-9999 or 9876543210
+
+		7		[Compare(string otherProperty, ErrorMessage = "value")]
+				Specifies that the values of current property and other property should be same.
+
+
+		8		[Url(ErrorMessage = "value")]
+				Specifies that the value should be a valid url (website address).
+				Eg: http://www.example.com
+
+		9		[ValidateNever]
+				Specifies that the property should not be validated (excludes the property from model validation).
+
+
+
+		Custom Validation Attribute:- 
+
+						>> in this we create a class in folder custom validtors ,which is the child class of "ValidationAttribute"
+						>> there is predefined method called "IsValid"
+						which get automatically called at run time
+
+					Syntax:==
+
+						protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
+					        {
+					            if (value != null)
+					            {
+					                DateTime dateTime = (DateTime)value;
+					                if (dateTime.Year > 2000)
+					                {
+					                   // return new ValidationResult("any error message");
+					                    return new ValidationResult(ErrorMessage);
+					                }
+					                else
+					                {
+					                    return ValidationResult.Success;
+					                }
+					            }
+					            return null;
+					        }
+
+			Parameters in Custom Validations :-
+
+			    [MinimumYearValidator (2000,ErrorMessage = "Minimum Year allowed is {0}")] -> for 2000 in our Case 
+
+					>> for this 1st add the paramter in the []
+
+					>> now come to the custom validators class, and create the constructors(less,param.)
+
+					>> then create a property above the const. which coantins the default value
+						public int MinimumYear { get; set; } = 2000;
+
+					>> now in param const. assign the value  of the arguments to the property which is created
+						public MinimumYearValidatorAttribute(int minYear)
+							{
+							    MinimumYear = minYear;
+							}
+
+					>> now below , string.format is used for {0}
+					 in IsValid() method
+						return new ValidationResult(string.Format(ErrorMessage ,MinimumYear));
+
+
+			Default error message for Custom Validations:-
+
+						public string DefaultErrorMessage { get; set; } = "Please Enter the year less than {0}";
+
+						in the IsValid() method
+							return new ValidationResult(string.Format(ErrorMessage ?? DefaultErrorMessage,MinimumYear));
+
+		Custom Validation with Multiple properties:-
+
+				>> used reflection concept to do so.
+
+
+
+		ValidatableObject :-
+
+					>> this is used when you want to create a validator which is not resusable i.e for a particular model class
+
+					>> it can be created within the same class
+
+					>> the model class implements the "ValidatableObject" interface, which contatins the only one method i.e. "Validate"
+
+					>> to implement the method, right click and quick action
+
+					>> this method exectued after all the validation error are successfull 
+
+
+
+		Bind and BindNever :-
+
+			>> it is used when we want to receive the particular properties 
+			>> to avoid the malpractise
+			>> to avoid overposting i.e submitting the more value than excepted
+
+
+			[Bind]
+
+
+						class ClassNameController
+						{
+						  public IActionResult ActionMethodName( [Bind(nameof(ClassName.PropertyName), nameof(ClassName.PropertyName) )]  ClassName parameterName)
+						  {
+						  }
+						}
+
+
+				>> in Controller class before the class(model) name
+
+				 >>	[Bind] attribute specifies that only the specified properties should be included in model binding.
+
+				 >> Prevents over-posting (post values into unexpected properties) especially in 'Create' scenarios.
+
+		[BindNever]
+			>> used above the property name
+
+						class ModelClassName
+						{
+						  [BindNever]
+						  public type PropertyName { get; set; }
+						}
+
+				>> [BindNever] attribute specifies that the specified property should NOT be included in model binding.
+
+				>> Useful when you have fewer properties to eliminate from model binding.
+
+
+
+		REQUEST BODY in Model Binding
+
+		[FromBody] :-
+		
+			>> ther are some other content type  like app/JSON, app/CSV, app/XML for such	type of content type you have consider using REQUEST BODY	
+
+
+			//enables the input formatters to read data from request body (as JSON or XML or custom) only
+
+					public IActionResult ActionMethodName( [FromBody] type parameter)
+					{
+					
+
+
+		Input Formatters :-
+
+			JSON input formatter is enabled by default in ASP.net core
+
+
+			for XML content type =>
+
+				>> // to enable XmlDataContractSerializerFormatters, for converting the XML content type to model object
+
+				>> in Program.cs file
+
+					builder.Services.AddControllers().AddXmlDataContractSerializerFormatters();
+
+
+		Custom Model Binder
+
+		Model Binder Provider
+
+		Collection Binding :
+
+			        //this property will accept the more than one value 
+			        // example of collcetion binding
+			        
+			        public List<string?> Tags { get; set; }
+
+					// in this user have to submit value using index like
+			      Tag[0]
+			      Tag[1]
+
+
+
+
+				  Value From Request Headers(FromHeader)
+
+				[FromHeader(Name ="User-Agent")]string UserAgent)
+
+				//mentioned in the action method
+
+				// also return the useragent
+				return Content($"{person}, {UserAgent}") ;

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AspDotNetLearnings\\JWTImplementation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\databasecontext\\jwtdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\databasecontext\\jwtdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\requestmodels\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\requestmodels\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\migrations\\20250401070104_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\migrations\\20250401070104_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|c:\\aspdotnetlearnings\\jwtimplementation\\jwtimplementation\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372A171-B68D-4E90-A6DE-C9486A315CAD}|JWTImplementation\\JWTImplementation.csproj|solutionrelative:jwtimplementation\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250401070104_Initial.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Migrations\\20250401070104_Initial.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Migrations\\20250401070104_Initial.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Migrations\\20250401070104_Initial.cs",
+              "RelativeToolTip": "JWTImplementation\\Migrations\\20250401070104_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:01:04.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JWTImplementation\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:07:10.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "JWTImplementation\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:06:50.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "JWTImplementation\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:04:11.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Services\\AuthService.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Services\\AuthService.cs",
+              "RelativeToolTip": "JWTImplementation\\Services\\AuthService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:02:32.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "JWTImplementation\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T06:33:58.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "JWTImplementation\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T06:19:49.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\RequestModels\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\RequestModels\\LoginRequest.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\RequestModels\\LoginRequest.cs",
+              "RelativeToolTip": "JWTImplementation\\RequestModels\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T06:18:47.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\appsettings.json",
+              "RelativeDocumentMoniker": "JWTImplementation\\appsettings.json",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\appsettings.json",
+              "RelativeToolTip": "JWTImplementation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T10:28:03.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Program.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Program.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Program.cs",
+              "RelativeToolTip": "JWTImplementation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:20:13.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtDbContext.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\DatabaseContext\\JwtDbContext.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\DatabaseContext\\JwtDbContext.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\DatabaseContext\\JwtDbContext.cs",
+              "RelativeToolTip": "JWTImplementation\\DatabaseContext\\JwtDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:09:35.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Models\\Employee.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Models\\Employee.cs",
+              "RelativeToolTip": "JWTImplementation\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:07:08.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Models\\User.cs",
+              "RelativeDocumentMoniker": "JWTImplementation\\Models\\User.cs",
+              "ToolTip": "C:\\AspDotNetLearnings\\JWTImplementation\\JWTImplementation\\Models\\User.cs",
+              "RelativeToolTip": "JWTImplementation\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:05:33.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

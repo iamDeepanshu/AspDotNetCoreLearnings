@@ -1,0 +1,33 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Cities web API",
+    "version": "2.0"
+  },
+  "paths": {
+    "/api/v2Cities": {
+      "get": {
+        "tags": [
+          "Cities"
+        ],
+        "summary": "To get list of cities (including city ID and city name) from 'cities' table",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

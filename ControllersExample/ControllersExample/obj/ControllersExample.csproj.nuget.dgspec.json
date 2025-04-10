@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DeepanshuSaini\\source\\repos\\ControllersExample\\ControllersExample\\ControllersExample.csproj": {}
+    "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\ControllersExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DeepanshuSaini\\source\\repos\\ControllersExample\\ControllersExample\\ControllersExample.csproj": {
+    "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\ControllersExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DeepanshuSaini\\source\\repos\\ControllersExample\\ControllersExample\\ControllersExample.csproj",
+        "projectUniqueName": "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\ControllersExample.csproj",
         "projectName": "ControllersExample",
-        "projectPath": "C:\\Users\\DeepanshuSaini\\source\\repos\\ControllersExample\\ControllersExample\\ControllersExample.csproj",
+        "projectPath": "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\ControllersExample.csproj",
         "packagesPath": "C:\\Users\\DeepanshuSaini\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DeepanshuSaini\\source\\repos\\ControllersExample\\ControllersExample\\obj\\",
+        "outputPath": "C:\\AspDotNetLearnings\\ControllersExample\\ControllersExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

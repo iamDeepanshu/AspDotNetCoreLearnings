@@ -4,7 +4,7 @@ namespace IActionResultExample.Controllers
 {
     public class HomeController : Controller
     {
-        [Route("book")]
+        [Route("bookstore")]
         public IActionResult Index()
         {
             //Book id should be applied
@@ -46,9 +46,37 @@ namespace IActionResultExample.Controllers
                 //return Content("User must be authenticated");
 
                 return Unauthorized("User must be authenticated");
+
+
             }
 
-            return File("/dummy.pdf", "application/pdf");
+            //return File("/dummy.pdf", "application/pdf");
+
+            //            Redirecting, for this create a new controller with new URL and action method
+
+                                                //302- Found
+
+            // return new RedirectToActionResult("Books", "Store", new { }); 
+            //return  RedirectToAction("Books", "Store", new { id = bookid }); //302- Found ShortHand
+
+
+                                                //301 - Permanently Moved
+
+            //return new RedirectToActionResult("Books", "Store", new { }, permanent: true); 
+            // return RedirectToActionPermanent("Books", "Store", new { id = bookId}); //301 - Permanently Moved ShortHand
+
+
+                                            //302- Found , LocalRedirect
+
+            // return new LocalRedirectResult($"store/book/{bookId}");
+            //return LocalRedirect($"store/book/{bookId}"); // Short Hand
+
+                                            //301- Moved Permanently , LocalRedirect
+                
+            // return new LocalRedirectResult($"store/book/{bookId},permanent:true");
+            return LocalRedirectPermanent($"store/book/{bookId}"); // Short Hand
+
+
         }
     }
 }
